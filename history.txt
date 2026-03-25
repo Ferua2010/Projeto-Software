@@ -1,0 +1,50 @@
+S
+del -r Script
+s
+dir
+remove Script
+del /?
+rmdir Script
+dir
+notepad README.md
+cd Scripts
+notepad script1.bat
+notepad script2.bat
+copy "C:\Scripts\README.md" "D:\Documents\"
+cd ..\
+copy "C:\ProjetoSoftware\README.md" "D:\Documents\"
+copy "C:\README.md" "D:\Documents\"
+copy C:\ProjetoSoftware\README.md" "D:\Documents\
+copy README.md ..\Documents
+mv script2.bat ..\Recursos
+mv /?
+move /?
+move C:\Projetos\arquivo.txt D:\pasta2\
+move script2.bat ..\Recursos
+move .\script2.bat ..\Recursos
+move C:\ProjetosSoftware\script2.bat D:\Recuros\
+move \script2.bat D:\Recuros\
+move C:\Scripts\script2.bat D:\Recuros\
+move \Scripts\script2.bat D:\Recuros\
+move \Scripts\script2.bat Recuros
+move \Scripts\script2.bat Recursos
+move Scripts\script2.bat Recursos\
+ren script1.bat main.bat
+ren script1.bat
+ren /?
+ren script1.bat
+ren "script1.bat" "main.bat"
+cd Recursos
+ren "script1.bat" "main.bat"
+ren script1.bat
+cd ..\
+cd Scripts
+ren script1.bat
+ren "script1.bat" "main.bat"
+cd ..\
+rmdir Backup
+dir
+xcopy "ProjetoSoftware" "ProjetoSoftware_Backup" /E /I /H /C /Y
+cd ..\
+xcopy "ProjetoSoftware" "ProjetoSoftware_Backup" /E /I /H /C /Y
+doskey /history > history.txt
