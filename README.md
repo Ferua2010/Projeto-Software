@@ -1,2 +1,2 @@
-Autor: Felipe Rua Braga
+Autor: Felipe Rua Braga.
 Data: 25/03/2026
